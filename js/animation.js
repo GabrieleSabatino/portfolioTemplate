@@ -1,0 +1,1 @@
+const c = document.querySelector('#cr').innerHTML = '<a href="https://www.instagram.com/gabrielesabatino"><p class="cr-p">Developed by Gabriele Sabatino &#169</p></a>'

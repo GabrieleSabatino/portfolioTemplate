@@ -1,0 +1,61 @@
+@import url("https://fonts.cdnfonts.com/css/neue-helvetica-compressed");
+
+ul {
+  list-style-type: none;
+}
+
+.footer {
+  padding: 3rem 10rem 3rem 10rem;
+  width: 100vw;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  display: inline-block;
+}
+
+#cr {
+  position: relative;
+  text-align: center;
+}
+
+.cr-p {
+  height: 2rem;
+  color: black;
+  font-family: "Neue Helvetica Compressed", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.cr-p:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.social {
+  width: 1.7rem;
+  height: auto;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .left {
+    float: none;
+  }
+
+  .right {
+    position: relative;
+    float: none;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer {
+    padding: 3rem 2rem 3rem 2rem;
+  }
+}

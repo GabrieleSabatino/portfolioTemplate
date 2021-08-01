@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./cdnjs/jquery.js"></script>
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/box.css">
+    <script src="./js/box.js"></script>
+    <title>Gallery</title>
+
+    <script>
+        $(function () {
+            $("#navbar").load("./components/navbar.html");
+        });
+
+        $(function () {
+            $("#footer").load("./components/footer.html");
+        });
+    </script>
+
+</head>
+<body>
+    <div class="spinner-wrapper">
+        <div class="spinner"></div>
+    </div>
+
+    <div id="navbar"></div>
+
+    <div class="gallery">
+        <a href="./img/g1.jpg" data-lightbox='gallery'><img src="./img/g1.jpg" alt=""></a>
+        <a href="./img/g2.jpg" data-lightbox='gallery'><img src="./img/g2.jpg" alt=""></a>
+        <a href="./img/g3.jpg" data-lightbox='gallery'><img src="./img/g3.jpg" alt=""></a>
+        <a href="./img/g4.jpg" data-lightbox='gallery'><img src="./img/g4.jpg" alt=""></a>
+        <a href="./img/g5.jpg" data-lightbox='gallery'><img src="./img/g5.jpg" alt=""></a>
+        <a href="./img/g6.jpg" data-lightbox='gallery'><img src="./img/g6.jpg" alt=""></a>
+    </div>
+    
+
+
+
+
+    <footer id='footer'></footer>
+</body>
+</html>
